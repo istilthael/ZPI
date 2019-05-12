@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C851E8947500DF06CCD59249 /* Pods_Antybec.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 337B9034B7127DAE7AF8320B /* Pods_Antybec.framework */; };
+		CF0EAD5B225683AB00B808AC /* SliderIndicatorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF0EAD5A225683AB00B808AC /* SliderIndicatorView.xib */; };
+		CF0EAD5D225688E100B808AC /* SliderIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0EAD5C225688E100B808AC /* SliderIndicatorView.swift */; };
+		CF0EAD602256898200B808AC /* LoadableFromXib.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0EAD5F2256898200B808AC /* LoadableFromXib.swift */; };
+		CF0EAD622256910500B808AC /* SliderIndicatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0EAD612256910500B808AC /* SliderIndicatorViewModel.swift */; };
+		CF0EAD652256979100B808AC /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0EAD642256979100B808AC /* MainViewController.swift */; };
+		CF0EAD68225BCEFD00B808AC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0EAD67225BCEFD00B808AC /* Constants.swift */; };
+		CF0EAD6A225BD00000B808AC /* Recognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0EAD69225BD00000B808AC /* Recognizer.swift */; };
+		CF3DA0E52242B301000AE2D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3DA0E42242B301000AE2D4 /* AppDelegate.swift */; };
+		CF3DA0EA2242B301000AE2D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF3DA0E82242B301000AE2D4 /* Main.storyboard */; };
+		CF3DA0EC2242B304000AE2D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF3DA0EB2242B304000AE2D4 /* Assets.xcassets */; };
+		CF3DA0EF2242B304000AE2D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF3DA0ED2242B304000AE2D4 /* LaunchScreen.storyboard */; };
+		CFEF0E1A225D28EC00562D3A /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEF0E19225D28EC00562D3A /* SettingsTableViewController.swift */; };
+		CFEF0E1D225D320300562D3A /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEF0E1C225D320300562D3A /* Colors.swift */; };
+		CFEF0E1F225D336E00562D3A /* WalkState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEF0E1E225D336E00562D3A /* WalkState.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D79A0EB38C27A0C302E2899 /* Pods-Antybec.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Antybec.release.xcconfig"; path = "Pods/Target Support Files/Pods-Antybec/Pods-Antybec.release.xcconfig"; sourceTree = "<group>"; };
+		337B9034B7127DAE7AF8320B /* Pods_Antybec.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Antybec.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		817C7BCA03CE948E6A7E6CFA /* Pods-Antybec.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Antybec.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Antybec/Pods-Antybec.debug.xcconfig"; sourceTree = "<group>"; };
+		CF0EAD5A225683AB00B808AC /* SliderIndicatorView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SliderIndicatorView.xib; sourceTree = "<group>"; };
+		CF0EAD5C225688E100B808AC /* SliderIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderIndicatorView.swift; sourceTree = "<group>"; };
+		CF0EAD5F2256898200B808AC /* LoadableFromXib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadableFromXib.swift; sourceTree = "<group>"; };
+		CF0EAD612256910500B808AC /* SliderIndicatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderIndicatorViewModel.swift; sourceTree = "<group>"; };
+		CF0EAD642256979100B808AC /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		CF0EAD67225BCEFD00B808AC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CF0EAD69225BD00000B808AC /* Recognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recognizer.swift; sourceTree = "<group>"; };
+		CF3DA0E12242B301000AE2D4 /* Antybec.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Antybec.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF3DA0E42242B301000AE2D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF3DA0E92242B301000AE2D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF3DA0EB2242B304000AE2D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF3DA0EE2242B304000AE2D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF3DA0F02242B304000AE2D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFEF0E19225D28EC00562D3A /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		CFEF0E1B225D2D3F00562D3A /* Antybec.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Antybec.entitlements; sourceTree = "<group>"; };
+		CFEF0E1C225D320300562D3A /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		CFEF0E1E225D336E00562D3A /* WalkState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkState.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF3DA0DE2242B301000AE2D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C851E8947500DF06CCD59249 /* Pods_Antybec.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C94AA323EA5E00261492460 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				817C7BCA03CE948E6A7E6CFA /* Pods-Antybec.debug.xcconfig */,
+				0D79A0EB38C27A0C302E2899 /* Pods-Antybec.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF0EAD592256835500B808AC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CF0EAD5A225683AB00B808AC /* SliderIndicatorView.xib */,
+				CF0EAD5C225688E100B808AC /* SliderIndicatorView.swift */,
+				CF0EAD612256910500B808AC /* SliderIndicatorViewModel.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CF0EAD5E2256896800B808AC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				CF0EAD5F2256898200B808AC /* LoadableFromXib.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		CF0EAD632256975700B808AC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CF0EAD642256979100B808AC /* MainViewController.swift */,
+				CFEF0E19225D28EC00562D3A /* SettingsTableViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CF0EAD66225BCEEA00B808AC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CF0EAD67225BCEFD00B808AC /* Constants.swift */,
+				CF0EAD69225BD00000B808AC /* Recognizer.swift */,
+				CFEF0E1C225D320300562D3A /* Colors.swift */,
+				CFEF0E1E225D336E00562D3A /* WalkState.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CF3DA0D82242B301000AE2D4 = {
+			isa = PBXGroup;
+			children = (
+				CF3DA0E32242B301000AE2D4 /* Antybec */,
+				CF3DA0E22242B301000AE2D4 /* Products */,
+				1C94AA323EA5E00261492460 /* Pods */,
+				E0D8B2A7E1D1C8E01C297D04 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CF3DA0E22242B301000AE2D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF3DA0E12242B301000AE2D4 /* Antybec.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF3DA0E32242B301000AE2D4 /* Antybec */ = {
+			isa = PBXGroup;
+			children = (
+				CFEF0E1B225D2D3F00562D3A /* Antybec.entitlements */,
+				CF0EAD5E2256896800B808AC /* Utils */,
+				CF0EAD66225BCEEA00B808AC /* Model */,
+				CF0EAD592256835500B808AC /* Views */,
+				CF0EAD632256975700B808AC /* ViewControllers */,
+				CF3DA0E42242B301000AE2D4 /* AppDelegate.swift */,
+				CF3DA0E82242B301000AE2D4 /* Main.storyboard */,
+				CF3DA0EB2242B304000AE2D4 /* Assets.xcassets */,
+				CF3DA0ED2242B304000AE2D4 /* LaunchScreen.storyboard */,
+				CF3DA0F02242B304000AE2D4 /* Info.plist */,
+			);
+			path = Antybec;
+			sourceTree = "<group>";
+		};
+		E0D8B2A7E1D1C8E01C297D04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				337B9034B7127DAE7AF8320B /* Pods_Antybec.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF3DA0E02242B301000AE2D4 /* Antybec */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF3DA0F32242B304000AE2D4 /* Build configuration list for PBXNativeTarget "Antybec" */;
+			buildPhases = (
+				29213D17B399D2EA049C0D80 /* [CP] Check Pods Manifest.lock */,
+				CF3DA0DD2242B301000AE2D4 /* Sources */,
+				CF3DA0DE2242B301000AE2D4 /* Frameworks */,
+				CF3DA0DF2242B301000AE2D4 /* Resources */,
+				3A6C9636E92D1EB06E98AA8B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Antybec;
+			productName = Antybec;
+			productReference = CF3DA0E12242B301000AE2D4 /* Antybec.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF3DA0D92242B301000AE2D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Wiktor Biruk";
+				TargetAttributes = {
+					CF3DA0E02242B301000AE2D4 = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = CF3DA0DC2242B301000AE2D4 /* Build configuration list for PBXProject "Antybec" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF3DA0D82242B301000AE2D4;
+			productRefGroup = CF3DA0E22242B301000AE2D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF3DA0E02242B301000AE2D4 /* Antybec */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF3DA0DF2242B301000AE2D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3DA0EF2242B304000AE2D4 /* LaunchScreen.storyboard in Resources */,
+				CF3DA0EC2242B304000AE2D4 /* Assets.xcassets in Resources */,
+				CF3DA0EA2242B301000AE2D4 /* Main.storyboard in Resources */,
+				CF0EAD5B225683AB00B808AC /* SliderIndicatorView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29213D17B399D2EA049C0D80 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Antybec-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A6C9636E92D1EB06E98AA8B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Antybec/Pods-Antybec-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SensingKit/SensingKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SensingKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Antybec/Pods-Antybec-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF3DA0DD2242B301000AE2D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF0EAD5D225688E100B808AC /* SliderIndicatorView.swift in Sources */,
+				CFEF0E1D225D320300562D3A /* Colors.swift in Sources */,
+				CF3DA0E52242B301000AE2D4 /* AppDelegate.swift in Sources */,
+				CF0EAD6A225BD00000B808AC /* Recognizer.swift in Sources */,
+				CFEF0E1F225D336E00562D3A /* WalkState.swift in Sources */,
+				CF0EAD652256979100B808AC /* MainViewController.swift in Sources */,
+				CFEF0E1A225D28EC00562D3A /* SettingsTableViewController.swift in Sources */,
+				CF0EAD68225BCEFD00B808AC /* Constants.swift in Sources */,
+				CF0EAD622256910500B808AC /* SliderIndicatorViewModel.swift in Sources */,
+				CF0EAD602256898200B808AC /* LoadableFromXib.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CF3DA0E82242B301000AE2D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF3DA0E92242B301000AE2D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF3DA0ED2242B304000AE2D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF3DA0EE2242B304000AE2D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF3DA0F12242B304000AE2D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF3DA0F22242B304000AE2D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF3DA0F42242B304000AE2D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 817C7BCA03CE948E6A7E6CFA /* Pods-Antybec.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QJGJ8JYR96;
+				INFOPLIST_FILE = Antybec/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wbiruk.Antybec;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF3DA0F52242B304000AE2D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D79A0EB38C27A0C302E2899 /* Pods-Antybec.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QJGJ8JYR96;
+				INFOPLIST_FILE = Antybec/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wbiruk.Antybec;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF3DA0DC2242B301000AE2D4 /* Build configuration list for PBXProject "Antybec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3DA0F12242B304000AE2D4 /* Debug */,
+				CF3DA0F22242B304000AE2D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF3DA0F32242B304000AE2D4 /* Build configuration list for PBXNativeTarget "Antybec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3DA0F42242B304000AE2D4 /* Debug */,
+				CF3DA0F52242B304000AE2D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF3DA0D92242B301000AE2D4 /* Project object */;
+}
